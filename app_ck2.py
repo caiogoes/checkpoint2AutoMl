@@ -45,7 +45,7 @@ st.title('Filmes')
 
 st.divider()
 
-st.header('Top 5 Avaliados', divider=False)
+st.header('Top 5 Avaliados')
 
 col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -86,7 +86,7 @@ with col5:
 
 st.divider()
 
-st.header('Top 5 Bilheterias', divider=False)
+st.header('Top 5 Bilheterias')
 
 col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -127,7 +127,7 @@ with col5:
 
 st.divider()
 
-st.header('Top 5 Ação', divider=False)
+st.header('Top 5 Ação')
 
 col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -168,7 +168,7 @@ with col5:
 
 st.divider()
 
-st.header('Top 5 Aventura', divider=False)
+st.header('Top 5 Aventura')
 
 col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -209,7 +209,7 @@ with col5:
 
 st.divider()
 
-st.header('Top 5 Animação', divider=False)
+st.header('Top 5 Animação')
 
 col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -250,7 +250,7 @@ with col5:
 
 st.divider()
 
-st.header('Top 5 Comédia', divider=False)
+st.header('Top 5 Comédia')
 
 col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -291,7 +291,7 @@ with col5:
 
 st.divider()
 
-st.header('Top 5 Drama', divider=False)
+st.header('Top 5 Drama')
 
 col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -332,7 +332,7 @@ with col5:
 
 st.divider()
 
-st.header('Top 5 Mistério', divider=False)
+st.header('Top 5 Mistério')
 
 col1, col2, col3, col4, col5 = st.columns(5)
 
@@ -366,7 +366,7 @@ with col4:
 
 st.divider()
 
-st.header('Top 5 Terror', divider=False)
+st.header('Top 5 Terror')
 
 col1, col2, col3, col4, col5 = st.columns(5)
 
