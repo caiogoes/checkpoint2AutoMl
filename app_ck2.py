@@ -3,11 +3,11 @@
 import streamlit as st
 import pandas as pd
 
-db_all = pd.read_csv('/content/all_movies.csv', sep=';')
+db_all = pd.read_csv('./all_movies.csv', sep=';')
 db_all = db_all.sort_values(by=['rating'], ascending=False)
 db_all = db_all.reset_index(drop=True)
 
-db_bilheteria = pd.read_csv('/content/top10_bilheterias.csv', sep=';')
+db_bilheteria = pd.read_csv('./top10_bilheterias.csv', sep=';')
 
 db_acao = db_all.copy()
 db_acao = db_acao.query("genre == 'Ação'")
